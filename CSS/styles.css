@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #444;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav ul li a img {
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.audiobook-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.audiobook-item {
+    width: 200px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.audiobook-item img {
+    width: 100%;
+    height: auto;
+}
+
+.audiobook-player {
+    text-align: center;
+    padding: 20px;
+}
+
+.donation {
+    text-align: center;
+    padding: 20px;
+}
+
+.donate-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.donate-button:hover {
+    background-color: #0056b3;
+}
